@@ -63,7 +63,7 @@ main.catalog a
     font-weight: 550;
     text-decoration: none;
 }
-main.text
+main:not(.catalog)
 {
     margin: 0 16% 0 20%;
     padding-left: 40px;
