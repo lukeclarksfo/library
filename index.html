@@ -1,13 +1,53 @@
 <!doctype html>
 <html>
 <head>
-
+<style>
+body
+{
+    margin: 0;
+    font-family:sans-serif;
+}
+header
+{
+    background: rgb(4 60 129);
+    color: white;
+    display: flex;
+}
+header div, header p
+{
+    padding: 20px;
+}
+header:nth-of-type(2)
+{
+    flex-flow: column;
+}
+header p, header h2
+{
+    padding: 10px 100px;
+}
+header h2
+{
+    font-weight: 550;
+}
+a 
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+</style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div><strong>Library</strong></div>
-        <a href="./index.html">Browse</a>
+        <div><a href="./index.html">Browse</a></div>
+        <div><a href="https://lukeclarksfo.github.io">Luke Clark</a></div>
+        <div><a href="https://github.com/lukeclarksfo/">GitHub Profile</a></div>
         <div><a href="https://github.com/lukeclarksfo/library">GitHub</a></div>
     </header>
     <div id="catalog-header">
