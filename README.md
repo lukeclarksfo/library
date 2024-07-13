@@ -1,5 +1,5 @@
-## Library
+# Library
 
-Visit the project
+Visit the project.
 
-[here](//lukeclarksfo.github.io/library/)
+[Website](//lukeclarksfo.github.io/library/)
